@@ -1,0 +1,3 @@
+## ##YAML Template
+html_report: --format progress --format html --out=reports/features_report.html
+message_report: --format progress --format message --out=reports/features_report.md

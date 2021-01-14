@@ -1,0 +1,25 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+# gem "rails"
+
+# HTTParty
+gem "httparty"
+
+# Rspec
+gem "rspec-core"
+gem "rspec-expectations"
+gem "rspec-json_expectations"
+
+# Cucumber
+gem "cucumber"
+
+# JsonMatchers
+# Validate your Json Schema ;)
+gem "json_matchers"
+
+# Faker
+gem "faker"

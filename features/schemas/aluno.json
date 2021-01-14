@@ -1,0 +1,17 @@
+{
+    "description": "schema POST aluno",
+    "type": "object",
+    "properties": {
+        "nome": {
+            "type": "string"
+        },
+        "cursoId": {
+            "type": "number",
+            "minimum": 0
+        },
+        "id": {
+            "type": "number",
+            "minimum": 0
+        }
+    }
+}

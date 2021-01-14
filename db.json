@@ -1,0 +1,79 @@
+{
+  "cursos": [
+    {
+      "titulo": "Entendendo o ES6",
+      "url": "https://codeprestige.com.br/cursos/es6",
+      "id": 1
+    },
+    {
+      "titulo": "Produtividade Máxima com o VS Code",
+      "url": "https://udemy.com/truques-vscode/",
+      "id": 2
+    },
+    {
+      "titulo": "Entendendo o ES7/ES8",
+      "url": "https://codeprestige.com.br/cursos/es7-8",
+      "id": 3
+    },
+    {
+      "titulo": "React 16 Definitivo",
+      "url": "https://udemy.com/react-16/",
+      "id": 4
+    },
+    {
+      "titulo": "Curso de Bash",
+      "url": "http://udemy.com/curso-de-bash",
+      "id": 5
+    },
+    {
+      "titulo": "Curso de Basic",
+      "url": "http://udemy.com/curso-de-basic",
+      "id": 6
+    },
+    {
+      "titulo": "Curso de Visual Fortran",
+      "url": "http://udemy.com/curso-de-visual-fortran",
+      "id": 7
+    }
+  ],
+  "alunos": [
+    {
+      "nome": "Marcela da Silva",
+      "cursoId": 1,
+      "id": 1
+    },
+    {
+      "nome": "José Luiz Felipe",
+      "cursoId": 2,
+      "id": 2
+    },
+    {
+      "nome": "Paulo Rogério",
+      "cursoId": 3,
+      "id": 3
+    },
+    {
+      "nome": "Felipe da Cunha",
+      "cursoId": 1,
+      "id": 4
+    },
+    {
+      "nome": "Luiza Cardoso Pereira",
+      "cursoId": 1,
+      "id": 5
+    },
+    {
+      "nome": "Lovie Morar",
+      "cursoId": 4,
+      "id": 6
+    },
+    {
+      "nome": "Tad Kovacek",
+      "cursoId": 2,
+      "id": 7
+    }
+  ],
+  "empresa": {
+    "nome": "Code Prestige"
+  }
+}

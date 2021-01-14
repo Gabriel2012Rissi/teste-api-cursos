@@ -1,0 +1,16 @@
+{
+    "description": "schema POST curso",
+    "type": "object",
+    "properties": {
+        "titulo": {
+            "type": "string"
+        },
+        "url": {
+            "type": "string"
+        },
+        "id": {
+            "type": "number",
+            "minimum": 0
+        }
+    }
+}
