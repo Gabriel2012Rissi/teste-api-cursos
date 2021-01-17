@@ -1,6 +1,6 @@
 class Curso
   include HTTParty
-  base_uri 'http://localhost:3000'
+  base_uri CONFIG['base_uri']
   
   def initialize(body, headers)
     @options = { :body => body, :headers => headers }

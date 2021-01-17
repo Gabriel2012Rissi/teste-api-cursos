@@ -1,0 +1,9 @@
+default: -p html_report -p dev
+
+### Ambientes ###
+dev: AMBIENTE=dev
+prod: AMBIENTE=prod
+
+# Reports
+html_report: --format pretty --format html --out=reports/features_report.html
+message_report: --format pretty --format message --out=reports/features_report.md
