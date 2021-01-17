@@ -1,9 +1,9 @@
 Before '@aluno' do
+    @nome = Faker::Name.name
     @curso = Curso.new(@body, @headers)
     $get = @curso.GETALL
     $index = Faker::Number.between(from: 0, to: $get.length - 1)
     @cursoId = $get[$index]["id"]
-    @nome = Faker::Name.name
 
     body = {
         "nome": @nome,
