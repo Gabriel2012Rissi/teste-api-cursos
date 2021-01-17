@@ -7,7 +7,7 @@ Consiste em um projeto simples visando demonstrar a utilização do HTTParty par
 ## Para utilizar
 
 ### json-server
-comando para instalação do json-server
+Comando para instalação do json-server
 
 #### Linux
 ``` shell
@@ -47,8 +47,7 @@ $ gem install bundler
 $ bundle install
 ```
 #### Executando o cucumber
-1. Acesse a parta **[ API ]**
-1. Execute o comando:
+Execute o comando:
 ```shell
 $ cucumber
 ```
