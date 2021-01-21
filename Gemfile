@@ -23,3 +23,6 @@ gem "json_matchers"
 
 # Faker
 gem "faker"
+
+# Factory_bot
+gem 'factory_bot'

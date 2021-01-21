@@ -34,6 +34,21 @@
       "titulo": "Curso de Visual Fortran",
       "url": "http://udemy.com/curso-de-visual-fortran",
       "id": 7
+    },
+    {
+      "titulo": "Curso de Ops5",
+      "url": "http://udemy.com/curso-de-ops5",
+      "id": 8
+    },
+    {
+      "titulo": "Curso de Acl2",
+      "url": "http://udemy.com/curso-de-acl2",
+      "id": 9
+    },
+    {
+      "titulo": "Curso de Sr",
+      "url": "http://udemy.com/curso-de-sr",
+      "id": 10
     }
   ],
   "alunos": [
@@ -63,12 +78,12 @@
       "id": 5
     },
     {
-      "nome": "Lovie Morar",
-      "cursoId": 4,
+      "nome": "Arnulfo Collier",
+      "cursoId": 8,
       "id": 6
     },
     {
-      "nome": "Tad Kovacek",
+      "nome": "Clark Volkman",
       "cursoId": 2,
       "id": 7
     }

@@ -3,6 +3,8 @@ Dada('a rota da API para o manter dados dos Alunos') do
 end
 
 Dada('a lista de cursos cadastrados') do
+  @curso = Curso.new(@headers, @body)
+  
   $getAll = @curso.GETALL
   expect($getAll.length).to be > 0
 end
