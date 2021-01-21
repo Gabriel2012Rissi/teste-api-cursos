@@ -2,8 +2,8 @@ class Curso
   include HTTParty
   base_uri CONFIG['base_uri']
   
-  def initialize(body, headers)
-    @options = { :body => body, :headers => headers }
+  def initialize(headers, body)
+    @options = { :headers => headers, :body => body }
   end
 
   def POST
