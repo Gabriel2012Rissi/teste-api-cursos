@@ -3,16 +3,15 @@ Before '@curso' do
   # @url = Faker::Internet.url(host: "udemy.com", 
   #   path: "/" + Faker::Internet.slug(words: @titulo, glue: '-'))
 
-  # body = {
-  #   "titulo": @titulo,
-  #   "url": @url
-  # }
-
   @headers = {
     "Content-Type": "application/json",
     "Accept": "*/*"
   }
 
+  # body = {
+  #   "titulo": @titulo,
+  #   "url": @url
+  # }
   @body = JSON.generate(FactoryBot.attributes_for(:curso))
 
   @curso = Curso.new(@headers, @body)
