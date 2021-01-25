@@ -8,7 +8,7 @@ A fim de manipular informações no cadastro de cursos
 Contexto: Rota da API
   Dada a rota da API para o manter dados dos cursos
 
-Esquema do Cenário: Manter dados de um novo Curso
+Cenário: Manter dados de um novo Curso
   Quando realizar uma requisição do tipo <tipo>
   Então a API deverá retornar os dados <retorno>
   E exibir o código <codigo>

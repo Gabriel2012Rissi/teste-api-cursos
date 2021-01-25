@@ -5,7 +5,7 @@
         "nome": {
             "type": "string"
         },
-        "cursoId": {
+        "curso": {
             "type": "number",
             "minimum": 0
         },

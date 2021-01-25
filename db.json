@@ -49,43 +49,88 @@
       "titulo": "Curso de Sr",
       "url": "http://udemy.com/curso-de-sr",
       "id": 10
+    },
+    {
+      "titulo": "Curso de Java",
+      "url": "http://udemy.com/curso-de-java",
+      "id": 11
     }
   ],
   "alunos": [
     {
       "nome": "Marcela da Silva",
-      "cursoId": 1,
+      "curso": 1,
       "id": 1
     },
     {
       "nome": "José Luiz Felipe",
-      "cursoId": 2,
+      "curso": 2,
       "id": 2
     },
     {
       "nome": "Paulo Rogério",
-      "cursoId": 3,
+      "curso": 3,
       "id": 3
     },
     {
       "nome": "Felipe da Cunha",
-      "cursoId": 1,
+      "curso": 1,
       "id": 4
     },
     {
       "nome": "Luiza Cardoso Pereira",
-      "cursoId": 1,
+      "curso": 1,
       "id": 5
     },
     {
       "nome": "Arnulfo Collier",
-      "cursoId": 8,
+      "curso": 8,
       "id": 6
     },
     {
       "nome": "Clark Volkman",
-      "cursoId": 2,
+      "curso": 2,
       "id": 7
+    },
+    {
+      "nome": "Alisa Ledner V",
+      "curso": 8,
+      "id": 8
+    },
+    {
+      "nome": "Cathey Monahan",
+      "curso": 7,
+      "id": 9
+    },
+    {
+      "nome": "Rev. Clifton Dach",
+      "curso": 10,
+      "id": 10
+    },
+    {
+      "nome": "Chauncey Littel",
+      "curso": 1,
+      "id": 11
+    },
+    {
+      "nome": "Kara O'Conner",
+      "curso": 6,
+      "id": 12
+    },
+    {
+      "nome": "Lorette Quigley",
+      "curso": 2,
+      "id": 13
+    },
+    {
+      "nome": "Darius Williamson",
+      "curso": 1,
+      "id": 14
+    },
+    {
+      "nome": "Dennis Schultz",
+      "curso": 10,
+      "id": 15
     }
   ],
   "empresa": {
