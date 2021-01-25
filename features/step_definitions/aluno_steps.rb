@@ -26,10 +26,10 @@ Então('a API deverá retornar os dados {string} do Aluno') do |retorno|
   case retorno
   when "do Cadastro"
     # verificando o que foi enviado na requisição
-    expect(JSON.parse($response.body)).to include("nome", "cursoId", "id")
+    expect(JSON.parse($response.body)).to include("nome", "curso", "id")
     expect($response.body).to include_json(
       nome: (be_a_kind_of String),
-      cursoId: (be_a_kind_of Integer),
+      curso: (be_a_kind_of Integer),
       id: (be_a_kind_of Integer)
     )
 

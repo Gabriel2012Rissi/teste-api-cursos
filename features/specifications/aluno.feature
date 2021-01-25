@@ -9,7 +9,7 @@ Contexto: Rota da API
   Dada a rota da API para o manter dados dos Alunos
   E a lista de cursos cadastrados
 
-Esquema do Cenário: Manter dados de um novo Aluno
+Cenário: Manter dados de um novo Aluno
   Quando realizar uma requisição do tipo <tipo> em Alunos
   Então a API deverá retornar os dados <retorno> do Aluno
   E exibir o código <codigo>

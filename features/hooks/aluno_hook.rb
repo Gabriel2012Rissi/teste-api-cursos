@@ -3,7 +3,7 @@ Before '@aluno' do
     # @curso = Curso.new(@body, @headers)
     # $get = @curso.GETALL
     # $index = Faker::Number.between(from: 0, to: $get.length - 1)
-    # @cursoId = $get[$index]["id"]
+    # @curso = $get[$index]["id"]
 
     @headers = {
         "Content-Type": "application/json",
@@ -12,7 +12,7 @@ Before '@aluno' do
 
     # body = {
     #     "nome": @nome,
-    #     "cursoId": @cursoId
+    #     "curso": @curso
     # }
     @body = JSON.generate(FactoryBot.attributes_for(:aluno))
 
