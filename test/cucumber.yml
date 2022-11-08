@@ -1,0 +1,7 @@
+default: -p html_report
+
+# Reports
+web_report: --format pretty --publish
+html_report: --format pretty --format html --out=reports/features_report.html
+json_report: --format pretty --format json --out=reports/features_report.json
+message_report: --format pretty --format message --out=reports/features_report.md

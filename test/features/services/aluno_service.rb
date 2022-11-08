@@ -1,6 +1,6 @@
 class Aluno
   include HTTParty
-  base_uri CONFIG['base_uri']
+  base_uri ENV['API_HOST']
   
   def initialize(headers, body)
     @options = { :headers => headers, :body => body }
