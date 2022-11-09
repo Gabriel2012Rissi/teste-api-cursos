@@ -2,7 +2,7 @@
 FROM ruby:3.1.2-alpine
 
 # Definir o diretório da aplicação
-ENV APP_HOME /usr/app
+ENV APP_HOME /usr/app/
 
 # Instalar as dependências da imagem
 RUN apk add --no-cache alpine-sdk
